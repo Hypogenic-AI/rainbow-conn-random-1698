@@ -1,0 +1,26 @@
+{
+  "success": true,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/workspaces/rainbow-conn-random-1698/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/workspaces/rainbow-conn-random-1698/literature_review.md",
+        "resources_catalog": "/workspaces/rainbow-conn-random-1698/resources.md",
+        "papers_dir": "/workspaces/rainbow-conn-random-1698/papers",
+        "code_dir": "/workspaces/rainbow-conn-random-1698/code"
+      },
+      "log_file": "/workspaces/rainbow-conn-random-1698/logs/resource_finder_claude.log",
+      "transcript_file": "/workspaces/rainbow-conn-random-1698/logs/resource_finder_claude_transcript.jsonl",
+      "elapsed_time": 836.9931502342224
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 1350.1585729122162,
+      "log_file": "/workspaces/rainbow-conn-random-1698/logs/execution_claude.log",
+      "transcript_file": "/workspaces/rainbow-conn-random-1698/logs/execution_claude_transcript.jsonl"
+    }
+  },
+  "work_dir": "/workspaces/rainbow-conn-random-1698"
+}

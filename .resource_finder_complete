@@ -1,0 +1,13 @@
+Resource finding phase completed successfully.
+Timestamp: 2026-03-08T03:00:00+00:00
+Papers downloaded: 9
+Prior results cataloged: 12
+Computational tools set up: 3 (networkx, pypdf, arxiv)
+
+Key findings:
+- User-specified arXiv IDs (1005.1665, 1101.5428) are NOT rainbow connection papers.
+  Correct IDs: arXiv:1201.4603 (Frieze-Tsourakakis 2012), arXiv:1311.2299 (Dudek et al. 2014)
+- Current best bounds: (1+o(1))log n/log(r-1) <= rc(G(n,r)) <= c*log n/log r for r >= 5
+- Research hypothesis rc(G) = ceil(n/d) + O(1) appears inconsistent with known results
+  (n/d = Theta(n) >> Theta(log n) = rc for fixed d). Actual open problem is proving rc ~ diam.
+- Best proof technique: Edge-splitting lemma (Kamcev et al.) + contiguity of random regular models
